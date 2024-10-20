@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* BG GRADIENT */
+  --light_color1: "radial-gradient(50% 50% at 50% 100%, #E1B5C9FF 0%, #073AFF00 100%),radial-gradient(113% 91% at 17% -2%, #2000240d 1%, #FF000000 99%),radial-gradient(142% 91% at 83% 7%, #2000240d 1%, #FF000000 99%),radial-gradient(142% 91% at -6% 74%, #2000240d 1%, #FF000000 99%),radial-gradient(142% 91% at 111% 84%, #2000240d 0%, #FFFFFFFF 100%)";
+  --light_color2: "radial-gradient(50% 50% at 50% 100%, #D1BEE1FF 0%, #073AFF00 100%),radial-gradient(113% 91% at 17% -2%, #2000240d 1%, #FF000000 99%),radial-gradient(142% 91% at 83% 7%, #2000240d 1%, #FF000000 99%),radial-gradient(142% 91% at -6% 74%, #2000240d 1%, #FF000000 99%),radial-gradient(142% 91% at 111% 84%, #2000240d 0%, #FFFFFFFF 100%)";
+  --light_color3: "radial-gradient(50% 50% at 50% 100%, #B9C5E0FF 0%, #073AFF00 100%),radial-gradient(113% 91% at 17% -2%, #2000240d 1%, #FF000000 99%),radial-gradient(142% 91% at 83% 7%, #2000240d 1%, #FF000000 99%),radial-gradient(142% 91% at -6% 74%, #2000240d 1%, #FF000000 99%),radial-gradient(142% 91% at 111% 84%, #2000240d 0%, #FFFFFFFF 100%)";
+  --light_color4: "radial-gradient(50% 50% at 50% 100%, #BDE0CAFF 0%, #073AFF00 100%),radial-gradient(113% 91% at 17% -2%, #2000240d 1%, #FF000000 99%),radial-gradient(142% 91% at 83% 7%, #2000240d 1%, #FF000000 99%),radial-gradient(142% 91% at -6% 74%, #2000240d 1%, #FF000000 99%),radial-gradient(142% 91% at 111% 84%, #2000240d 0%, #FFFFFFFF 100%)";
+  --dark_color1: "radial-gradient(20% 20% at 50% 100%, #2B2629FF 0%, #073AFF00 100%),radial-gradient(113% 91% at 17% -2%, #240029 1%, #FF000000 99%),radial-gradient(142% 91% at 83% 7%, #240029 1%, #FF000000 99%),radial-gradient(142% 91% at -6% 74%, #240029 1%, #FF000000 99%),radial-gradient(142% 91% at 111% 84%, #240029 0%, #FF0000FF 100%)";
+  --dark_color2: "radial-gradient(20% 20% at 50% 100%, #39244DFF 0%, #073AFF00 100%),radial-gradient(113% 91% at 17% -2%, #240029 1%, #FF000000 99%),radial-gradient(142% 91% at 83% 7%, #240029 1%, #FF000000 99%),radial-gradient(142% 91% at -6% 74%, #240029 1%, #FF000000 99%),radial-gradient(142% 91% at 111% 84%, #240029 0%, #9333ea 99%)";
+  --dark_color3: "radial-gradient(20% 20% at 50% 100%, #142242FF 0%, #073AFF00 100%),radial-gradient(113% 91% at 17% -2%, #240029 1%, #FF000000 99%),radial-gradient(142% 91% at 83% 7%, #240029 1%, #FF000000 99%),radial-gradient(142% 91% at -6% 74%, #240029 1%, #FF000000 99%),radial-gradient(142% 91% at 111% 84%, #240029 0%, #2563eb 99%)";
+  --dark_color4: "radial-gradient(20% 20% at 50% 100%, #093419FF 0%, #073AFF00 100%),radial-gradient(113% 91% at 17% -2%, #021208FF 1%, #FF000000 99%),radial-gradient(142% 91% at 83% 7%, #02150AFF 1%, #FF000000 99%),radial-gradient(142% 91% at -6% 74%, #021F12FF 1%, #FF000000 99%),radial-gradient(142% 91% at 111% 84%, #240029 0%, #16a34a 99%)";
+
+  /*  */
+  --black: #240029;
+  --light: #2000240d;
+  --highlight-light: #fc1;
+  --highlight-dark: #ffd45e;
+
+  /* COLOR */
+  --color_1: #db2777;
+  --color_2: #9333ea;
+  --color_3: #2563eb;
+  --color_4: #16a34a;
+
+  /* BG COLOR */
+  --embed-bg-color-dark-1: #240029;
+  --embed-bg-color-dark-2: #1a002e;
+  --embed-bg-color-dark-3: #000b2e;
+  --embed-bg-color-dark-4: #001408;
+
+  /*  */
+  --section-padding-lg: var(--spacing-utility-rem--6rem);
+  --section-padding-md: var(--spacing-utility-rem--5rem);
+  --section-padding-sm: var(--spacing-utility-rem--4rem);
+  --section-padding-xs: var(--spacing-utility-rem--3rem);
+
+  /*  */
+  --section-compact-padding-lg: var(--spacing-utility-rem--3rem);
+  --section-compact-padding-md: var(--spacing-utility-rem--3rem);
+  --section-compact-padding-sm: var(--spacing-utility-rem--1-5rem);
+  --section-compact-padding-xs: var(--spacing-utility-rem--1-5rem);
+
+  /* FONT SIZE */
+  --type-h1--font-size-lg: 5rem;
+  --type-h1--font-size-md: 4.8rem;
+  --type-h1--font-size-sm: 3.6rem;
+  --type-h1--font-size-xs: 2.8rem;
+
+  --type-h2--font-size-lg: 3.25rem;
+  --type-h2--font-size-md: 3.2rem;
+  --type-h2--font-size-sm: 2.5rem;
+  --type-h2--font-size-xs: 2rem;
+
+  --type-h3--font-size-lg: 2.25rem;
+  --type-h3--font-size-md: 2.5rem;
+  --type-h3--font-size-sm: 1.4rem;
+  --type-h3--font-size-xs: 1.4rem;
+
+  --type-h4--font-size-lg: 1.5rem;
+  --type-h4--font-size-md: 1.25rem;
+  --type-h4--font-size-sm: 1.25rem;
+  --type-h4--font-size-xs: 1.25rem;
+
+  /* LINE HEIGHT */
+  --type-h1--line-height: 1em;
+  --type-h2--line-height: 1.1em;
+  --type-h3--line-height: 1.2em;
+  --type-h4--line-height: 1.4em;
+
+  /* LETTER SPACING */
+  --type-h1--letter-spacing: -0.02em;
+  --type-h2--letter-spacing: -0.02em;
+  --type-h3--letter-spacing: -0.02em;
+  --type-h4--letter-spacing: -0.02em;
+
+  /* BOTTOM MARGIN */
+  --type-h1--bottom-margin: 0.25em;
+  --type-h2--bottom-margin: 0.25em;
+  --type-h3--bottom-margin: 0.5em;
+  --type-h4--bottom-margin: 0.5em;
+
+  /* BORDER RADIUS */
+  --embed-element-radius-none: 0;
+  --embed-element-radius-sm: 0.25rem;
+  --embed-element-radius-md: 0.5rem;
+  --embed-element-radius-lg: 4rem;
+
+  --embed-wrapper-radius-none: 0;
+  --embed-wrapper-radius-sm: 1rem;
+  --embed-wrapper-radius-md: 1.5rem;
+  --embed-wrapper-radius-lg: 2rem;
+}
