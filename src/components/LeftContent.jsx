@@ -14,7 +14,7 @@ const LeftContent = ({ appearance, fonts, setAppearance, setFonts }) => {
       <div
         className={`w-full p-[.1rem] border rounded-lg flex gap-1 mt-2 ${
           appearance === "dark"
-            ? "bg-[#240029] border-[#240029]"
+            ? "bg-[#20002462] border-[#20002462]"
             : "bg-[#2000240d] border-[#2000240d]"
         }`}
       >

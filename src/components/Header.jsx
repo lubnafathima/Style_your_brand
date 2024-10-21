@@ -18,7 +18,7 @@ const Header = ({ activeTab, setActiveTab, appearance }) => {
       <div
         className={`w-full md:w-auto flex justify-center gap-2 rounded-lg overflow-x-scroll hide-scrollbar mt-2 p-[.2rem] ${
           appearance === "dark"
-            ? "bg-[#240029] border-[#240029]"
+            ? "bg-[#20002462] border-[#20002462]"
             : "bg-[#2000240d] border-[#2000240d]"
         }`}
       >
