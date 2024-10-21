@@ -170,7 +170,7 @@ const Home = () => {
 
   return (
     <div
-      className="w-full min-h-screen text-black flex flex-col justify-center items-center py-20 px-4 md:px-0"
+      className="w-full min-h-screen text-black flex flex-col py-20 px-4 md:px-0"
       style={{
         background: currentGradients[brandColor],
       }}
