@@ -1,7 +1,9 @@
-const LogIn = ({fonts, renderLogo, cornerRadius, brandColor}) => {
+const LogIn = ({ fonts, renderLogo, cornerRadius, brandColor }) => {
   return (
-    <div className={`w-[41%] flex justify-center ${fonts} `}>
-      <form className="w-2/3 bg-white border border-gray-300 rounded-2xl px-8 py-10">
+    <div
+      className={`w-full sm:w-[60%] md:w-[41%] flex justify-center ${fonts} `}
+    >
+      <form className="w-full lg:w-2/3 bg-white border border-gray-300 rounded-2xl px-8 py-10">
         <div className="flex justify-center items-center mb-5">
           {renderLogo()}
         </div>

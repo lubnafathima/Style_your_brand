@@ -1,19 +1,19 @@
 import { RxAvatar } from "react-icons/rx";
 
-const Profile = ({fonts, cornerRadius, brandColor}) => {
+const Profile = ({ fonts, cornerRadius, brandColor }) => {
   return (
-    <div className={`w-[41%] flex gap-4 bg-white border border-gray-300 rounded-2xl ${fonts} `}>
-      <div className="w-1/3 h-full px-12 py-12">
+    <div
+      className={`w-full sm:w-[60%] md:w-[41%] flex flex-col md:flex-row gap-4 bg-white border border-gray-300 rounded-2xl ${fonts} `}
+    >
+      <div className="w-full md:w-1/3 h-full px-12 py-12">
         <p className="mb-3 cursor-pointer">Profile</p>
         <p className="mb-3 cursor-pointer">Account</p>
         <p className="mb-3 cursor-pointer">Team</p>
         <p className="mb-3 cursor-pointer">Plan</p>
         <p className="mb-3 cursor-pointer">Billing</p>
       </div>
-      <form className="w-2/3 border-l px-8 py-10">
-        <h2 className="text-4xl font-black leading-7 text-gray-900">
-          Profile
-        </h2>
+      <form className="w-full md:w-2/3 border-l px-8 py-10">
+        <h2 className="text-4xl font-black leading-7 text-gray-900">Profile</h2>
 
         <div className="mt-5 grid grid-cols-1 gap-4 sm:grid-cols-6">
           <div className="col-span-full">

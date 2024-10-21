@@ -2,7 +2,7 @@ const Header = ({ activeTab, setActiveTab, appearance }) => {
   return (
     <div className="flex flex-col items-center justify-center gap-6">
       <h1
-        className={`text-5xl font-black ${
+        className={`text-5xl font-black text-center ${
           appearance === "dark" ? "text-white" : "text-black"
         }`}
       >
@@ -20,7 +20,7 @@ const Header = ({ activeTab, setActiveTab, appearance }) => {
           appearance === "dark"
             ? "bg-[#240029] border-[#240029]"
             : "bg-[#2000240d] border-[#2000240d]"
-        } p-[.1rem] border  rounded-lg flex gap-1`}
+        } p-[.1rem] border rounded-lg flex gap-1 overflow-x-auto overflow-hidden hide-scrollbar`}
       >
         <button
           onClick={() => setActiveTab("SignUp")}

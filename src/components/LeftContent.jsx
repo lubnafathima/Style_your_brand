@@ -3,7 +3,7 @@ import { PiMoonLight } from "react-icons/pi";
 
 const LeftContent = ({ appearance, fonts, setAppearance, setFonts }) => {
   return (
-    <div className="w-[20%]">
+    <div className="w-[20%] hidden md:block">
       <p
         className={`text-base font-medium ${
           appearance === "dark" ? "text-white" : "text-gray-600"

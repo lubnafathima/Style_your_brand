@@ -13,7 +13,7 @@ const RightContent = ({
   setCornerRadius,
 }) => {
   return (
-    <div className="w-[20%]">
+    <div className="w-[20%] hidden md:block">
       <div className="">
         <p
           className={`text-base font-medium ${

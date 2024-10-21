@@ -1,10 +1,15 @@
-const TransactionalEmail = ({fonts, renderLogo, cornerRadius, brandColor}) => {
+const TransactionalEmail = ({
+  fonts,
+  renderLogo,
+  cornerRadius,
+  brandColor,
+}) => {
   return (
-    <div className={`w-[41%] flex justify-center ${fonts} `}>
-      <form className="w-4/5 bg-white border border-gray-300 rounded-2xl px-8 py-10">
-        <div className="flex justify-start mb-6">
-          {renderLogo()}
-        </div>
+    <div
+      className={`w-full sm:w-[60%] md:w-[41%] flex justify-center ${fonts} `}
+    >
+      <form className="w-full lg:w-4/5 bg-white border border-gray-300 rounded-2xl px-8 py-10">
+        <div className="flex justify-start mb-6">{renderLogo()}</div>
 
         <h2 className="text-2xl font-semibold leading-7 text-gray-900 text-start">
           Thanks for signing up!
